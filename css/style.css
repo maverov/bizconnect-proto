@@ -1,0 +1,88 @@
+body {
+    background: #333;
+    color: white;
+}
+
+.navbar {
+    border-bottom: green 3px solid;
+    opacity: 0.8;
+}
+
+#home-section {
+    background: url(../img/home-section.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+
+#home-section .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.home-inner {
+    padding-top: 150px;
+}
+
+#home-section .card-form{
+    opacity: 0.85;
+}
+
+#home-section .fas {
+    color: green;
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.about-us {
+    max-width: 800px;
+    margin: auto;
+}
+
+#experts-panel .fas {
+    color: green;
+    background: rgb(218, 216, 216);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.copyr {
+    font-size: 1.1rem;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 0.5rem;
+}
+
+.dev {
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.dev a {
+    text-decoration: none;
+    color: white;
+}
+
+.dev a:hover {
+    color: green;
+    transition: 0.2s;
+}
+
+#main-footer .fab {
+    padding-top: 1rem;
+    font-size: 2.2rem;
+    margin-right: 1rem;
+    color: lightgray;
+}
+
+#main-footer .fab:hover {
+    color: white;
+    transition: 0.2s;
+    cursor: pointer;
+}
